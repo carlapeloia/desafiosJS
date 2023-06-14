@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.card {
+  max-height: 16rem;
+  max-width: 20rem;
+  min-width: 16rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  background-color: var(--bg-secondary-restaurante);
+  border-radius: .5rem;
+
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  font-weight: bold;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../CSS/general.css">
+  <link rel="stylesheet" href="../CSS/RESTAURANTE/nav.css">
+  <link rel="stylesheet" href="../CSS/RESTAURANTE/card.css">
+  <link rel="stylesheet" href="../CSS/RESTAURANTE/pedido.css">
+  <link rel="stylesheet" href="../CSS/RESTAURANTE/body.css">
+  <link rel="stylesheet" href="../CSS/RESTAURANTE/footer.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <script src="../JS/pedidoRestaurante.js" defer></script>
+
+  <link rel="shortcut icon" href="../ICONS/favicon2.ico" type="image/x-icon" />
+
+  <title>Retorna valor do pedido</title>
+</head>
+<body>
+  <nav id="navigation">
+    <section id="links-nav">
+      <a href="../index.html">Início</a>
+      <a href="#">Desafio 2</a>
+      <a href="#">Desafio 3</a>
+      <a href="#">Desafio 4</a>
+      <a href="#">Desafio 5</a>
+      <a href="#">Desafio 6</a>
+
+    </section>
+    <section>
+      <button id="btn-nav">Light mode</button>
+    </section>
+  </nav>
+
+  <main class="cards">
+    <article class="card">
+      <div class="icon">
+        <img src="../ICONS/snack.png" alt="Ícone de lanche">
+      </div>
+      <h3>X-Salada</h3>
+      <span>Delicioso pão com gergelim, hambúrguer, queijo prato, alface e tomate.</span>
+      <p>R$ 12,99</p>
+    </article>
+    <article class="card">
+      <div class="icon">
+        <img src="../ICONS/potato.png" alt="Ícone de batata frita">
+      </div>
+      <h3>Fritas</h3>
+      <span>Batata palito frita, quentinha, com sal na medida certa.</span>
+      <p>R$ 6,99</p>
+    </article>
+    <article class="card">
+      <div class="icon">
+        <img src="../ICONS/refri.png" alt="Ícone de refrigerante">
+      </div>
+      <h3>Refrigerante</h3>
+      <span>Guaraná de primeira qualidade, super gelada.</span>
+      <p>R$ 7,99</p>
+    </article>
+    <article class="card">
+      <div class="icon">
+        <img src="../ICONS/dessert.png" alt="Ícone de sobremesa">
+      </div>
+       <h3>Sobremesa</h3>
+      <span>O melhor sundae de morango que você vai conhecer nessa vida.</span>
+      <p>R$ 11,99</p>
+    </article>
+  </main>
+
+  <article id="pedido">
+    <section id="entrada-pedido">
+      <form id="form-pedido">
+        <h2>Faça seu pedido</h2>
+        <label for="snack">Qtde lanche</label>
+        <input type="text" name="snack" id="snack">
+        <label for="potato">Qtde batata</label>
+        <input type="text" name="potato" id="potato">
+        <label for="refri">Qtde refrigerante</label>
+        <input type="text" name="refri" id="refri">
+        <label for="dessert">Qtde sobremesa</label>
+        <input type="text" name="dessert" id="dessert">
+        <button id="btn-pedir" class="btn-pedido">Fazer pedido</button>
+      </form> 
+
+      <section id="detalhes-pedido">
+        <h2>Seu pedido</h2>
+        <label>Lanche</label>
+        <span id="viewSnack"></span>
+        <label>Batata</label>
+        <span id="viewPotato"></span>
+        <label>Refrigerante</label>
+        <span id="viewRefri"></span>
+        <label>Sobremesa</label>
+        <span id="viewDessert"></span>
+        <button id="btn-limpar" class="btn-pedido">Limpar pedido</button>
+      </section>
+    </section>      
+  </article>
+
+  <section id="mostra-valor">
+    <h2>Valor do pedido</h2>
+    <span id="totalPrice"></span>
+  </section>
+</body>
