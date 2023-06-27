@@ -11,12 +11,17 @@ Página para simular o valor de pedido em um restaurante.
 
 ![desafio1](https://user-images.githubusercontent.com/96264805/245892030-031391b5-9c6a-4722-8101-e2afbaa76aa4.PNG)
 
+Desafio 2:
+Realizando troca de imagem e inserção de imagens ao clicar no botão.
 
-## Projeto desenvolvido por
+![trocaInsereImagem](https://user-images.githubusercontent.com/96264805/249179086-71455b7f-d9e3-4165-9ca3-6e3c60670bb8.PNG)
+
+
+## Projetos desenvolvidos por
 
 _Carla Peloia_: https://github.com/carlapeloia
 
-## Projeto desenvolvido com
+## Projetos desenvolvidos com
 
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg">
