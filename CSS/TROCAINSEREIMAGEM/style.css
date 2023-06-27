@@ -1,0 +1,62 @@
+:root {
+  --button-color1: rgb(210, 105, 30);
+  --button-color2: rgb(0, 0, 0);
+  --border-color: rgb(128, 128, 128);
+  --shadow-color: rgb(145, 142, 142);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: auto;
+  width: 1244px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 5px 5px 2px var(--shadow-color);
+}
+
+#button1, #button2 {
+  height: 60px;
+  width: 30%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--button-color2);
+  text-transform: uppercase;
+  background-color: var(--button-color1);
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+}
+
+#button1:hover, #button2:hover {
+  color: var(--button-color1);
+  background-color: var(--button-color2);
+}
+
+#minhaImagem, #minhaImagem2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid var(--button-color1);
+}
+
+#minhaImagem, #minhaImagem2, #minhaImagem img, #minhaImagem2 img {
+  border-radius: 5px;
+}
+
+#minhaImagem2 {
+  justify-content: center;
+}
+
+#minhaImagem2 img {
+  width: 300px;
+}
